@@ -34,7 +34,7 @@ module "in28minutes-cluster" {
   cluster_version = "1.14"
   subnets         = ["subnet-3f7b2563", "subnet-4a7d6a45"] #CHANGE
   #subnets = data.aws_subnet_ids.subnets.ids
-  vpc_id          = aws_default_vpc.default.id
+  vpc_id          = "vpc-0ed12e1fe1437032a"
 
   #vpc_id         = "vpc-1234556abcdef"
 
